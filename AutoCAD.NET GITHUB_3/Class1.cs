@@ -17,6 +17,7 @@ namespace AutoCAD.NET_GITHUB_3
         {
             Document doc = Application.DocumentManager.MdiActiveDocument;
 
+
             Database db = doc.Database;
 
             Editor ed = doc.Editor;
